@@ -24,7 +24,7 @@
 #     except (ZeroDivisionError, ValueError) as er:
 #         print(er) 
 
-# ---------------------
+# ------------------------------------
 
 # вариант б (покороче):
 
@@ -42,30 +42,30 @@
 #     except (ZeroDivisionError, ValueError, IndexError) as er:
 #         print(er)
 
-# -----------------------------------------------------------------------------
+###########################################################################################
 
-# Задача 2 (Подсчёт элементов):
+# Задача 2 (Подсчёт элементов в списке):
 
-from random import randint
+# from random import randint
 
-s = []
-cnt_neg, cnt_pos, cnt_zero = 0, 0, 0
+# s = []
+# cnt_neg, cnt_pos, cnt_zero = 0, 0, 0
 
-for i in range(20):
-    s.append(randint(-100, 100))
-print(s)
-print('Максимальное число:', max(s))
-print('Минимальное число:', min(s))
-for i in s:
-    if i < 0:
-        cnt_neg += 1
-    elif i > 0:
-        cnt_pos += 1
-    else:
-        cnt_zero +=1
-print('Колличество отрицательных:', cnt_neg)
-print('Колличество положительных:', cnt_pos)
-print('Колличество нулей:', cnt_zero)
+# for i in range(20):
+#     s.append(randint(-100, 100))
+# print(s)
+# print('Максимальное число:', max(s))
+# print('Минимальное число:', min(s))
+# for i in s:
+#     if i < 0:
+#         cnt_neg += 1
+#     elif i > 0:
+#         cnt_pos += 1
+#     else:
+#         cnt_zero +=1
+# print('Колличество отрицательных:', cnt_neg)
+# print('Колличество положительных:', cnt_pos)
+# print('Колличество нулей:', cnt_zero)
 
 
 
